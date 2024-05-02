@@ -11,7 +11,6 @@ import { messages } from './messages';
 interface Props {}
 
 export const Users = memo((props: Props) => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
